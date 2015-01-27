@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version = '1.1.0'
   s.summary = 'Getui SDK'
   s.homepage = 'http://www.igetui.com'
-  s.ios.deployment_target = '3.0'
+  s.ios.deployment_target = '7.0'
   s.source = { :git => "https://github.com/brasbug/PrivateSDK-.git", :branch => "master" }
   s.source_files = "Getui-SDK/GexinSdk.h", "Getui-SDK/GXSdkError.h"
   s.preserve_paths = "Getui-SDK/libGexinSdk-1.1.0.a"
